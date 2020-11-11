@@ -5,15 +5,15 @@ import SignUp from "../../components/SignUp";
 
 const {TabPane} = Tabs;
 
-const AuthPage = () => {
+const AuthPage = ({login, signUp, users}) => {
     return (
         <div style={{margin: 100}}>
             <Tabs defaultActiveKey="1" centered={true} size={'large'}>
                 <TabPane tab="Login" key="1" style={{textAlign: "-webkit-center"}}>
-                    <Login/>
+                    <Login login={login} users={users}/>
                 </TabPane>
                 <TabPane tab="SignUp" key="2" style={{textAlign: "-webkit-center"}}>
-                    <SignUp/>
+                    <SignUp signUp={signUp}/>
                 </TabPane>
             </Tabs>
         </div>

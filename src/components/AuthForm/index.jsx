@@ -1,10 +1,10 @@
 import React from 'react';
 import {Form, Input, Button, Checkbox} from 'antd';
 
-function AuthForm({signUp}) {
+function AuthForm({signUp, login, signup, users}) {
 
     const onFinish = (values) => {
-        console.log('Success:', values);
+        login ? login(values.username, values.password, users) : signUp(values.username, values.password, values.name)
     };
 
     const onFinishFailed = (errorInfo) => {
@@ -48,7 +48,7 @@ function AuthForm({signUp}) {
             >
                 <Input.Password/>
             </Form.Item>
-            {signUp ? <><Form.Item
+            {signup ? <><Form.Item
                     label="2Password"
                     name="2password"
                     rules={[
@@ -61,8 +61,8 @@ function AuthForm({signUp}) {
                     <Input.Password/>
                 </Form.Item>
                     <Form.Item
-                        label="Email"
-                        name="email"
+                        label="Name"
+                        name="name"
                         rules={[
                             {
                                 required: true,

@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "latest",
+    "@apollo/client": "^3.2.5",
     "@rjsf/core": "^2.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.8.2",
+    "graphql": "^15.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-jsonschema-form": "^1.8.1",
@@ -19,8 +22,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4",
-    "@ant-design/icons": "latest"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

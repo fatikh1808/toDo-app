@@ -5,7 +5,12 @@ import TaskCard from "../TaskCard";
 function TaskItems() {
     return (
         <Row style={{height: "auto"}}>
-            <TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/>
+            <TaskCard/>
+            <TaskCard/>
+            <TaskCard/>
+            <TaskCard/>
+            <TaskCard/>
+            <TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/>
         </Row>
     )
 }

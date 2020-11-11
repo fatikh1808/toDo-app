@@ -1,10 +1,10 @@
 import React from 'react';
 import AuthForm from "../AuthForm";
 
-function SignUp() {
+function SignUp({signUp}) {
 
     return (
-        <AuthForm signUp/>
+        <AuthForm signup signUp={signUp}/>
     )
 }
 
