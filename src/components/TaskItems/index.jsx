@@ -1,11 +1,11 @@
 import React from 'react';
-import {Col, Row} from "antd";
+import {Row} from "antd";
+import TaskCard from "../TaskCard";
 
 function TaskItems() {
     return (
         <Row style={{height: "auto"}}>
-        <Col span={6}>
-        </Col>
+            <TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/>
         </Row>
     )
 }

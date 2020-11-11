@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c38504-05b2-4343-8a49-5b0c3b6e405d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AuthForm/index.jsx" afterDir="false" />
+    <list default="true" id="86c38504-05b2-4343-8a49-5b0c3b6e405d" name="Default" comment="You">
+      <change afterPath="$PROJECT_DIR$/src/components/TaskCard/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftBar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sider/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sider/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sorters/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sorters/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TaskItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskItems/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopUtils/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopUtils/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AuthPage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AuthPage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserPage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UsersPage.jsx/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UsersPage/index.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/TaskDistributor/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Distributor/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,14 +42,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/TaskItems/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/TaskCard/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SiderItem/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -128,18 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -207,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/components/TopUtils/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Title/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/TaskItems/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TaskCard/index.jsx" />
       </list>
     </option>
   </component>
@@ -263,6 +249,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="LeftBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="SiderItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskItems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +339,7 @@
       <workItem from="1604998133570" duration="440000" />
       <workItem from="1604998586819" duration="14111000" />
       <workItem from="1605018495821" duration="4207000" />
-      <workItem from="1605078094635" duration="6938000" />
+      <workItem from="1605078094635" duration="9120000" />
     </task>
     <task id="LOCAL-00001" summary="You">
       <created>1605078276843</created>
@@ -341,24 +348,32 @@
       <option name="project" value="LOCAL" />
       <updated>1605078276843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="You">
+      <created>1605085086562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605085086562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26394000" />
+    <option name="totallyTimeSpent" value="28576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31515813" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31452456" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17114271" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17114271" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -383,7 +398,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="You" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/LeftBar.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Login.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Sider.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/SiderItem.jsx" />
@@ -394,13 +408,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/TaskType.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Title.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/TopUtils.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/SiderItem/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TaskItem/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/TaskType/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,10 +677,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SiderItem/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TaskItems/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskCard/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
