@@ -1,13 +1,13 @@
 import React from 'react';
 import {Col} from 'antd';
 
-const Sider = () => {
+function SiderItem() {
     return (
-        <Col span={1} style={{backgroundColor: 'black'}}>
-            Sider
+        <Col span={12} style={{backgroundColor: "red"}}>
+            SiderItem
         </Col>
     )
 }
 
-export default Sider;
+export default SiderItem;
 

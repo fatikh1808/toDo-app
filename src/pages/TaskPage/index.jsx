@@ -1,12 +1,12 @@
 import React from 'react';
 
-function TaskItem() {
+function TaskPage() {
     return (
         <div>
-            TaskItem
+            TaskPage
         </div>
     )
 }
 
-export default TaskItem;
+export default TaskPage;
 

@@ -1,12 +1,12 @@
 import React from 'react';
 
-const TaskType = () => {
+function Title() {
     return (
-        <div>
-            TaskType
+        <div style={{height: "5%"}}>
+            Title
         </div>
     )
-};
+}
 
-export default TaskType;
+export default Title;
 

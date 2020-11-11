@@ -3,12 +3,10 @@ import * as types from '../constants';
 const token = localStorage.getItem('token');
 
 const initialState = {
-    isAuthenticated: !!token,
-    userId: null,
-    token,
-
+    isManager: false,
+    userInfo: {}
 };
 
-export default function authReducer(state = initialState, action) {
+export default function userReducer(state = initialState, action) {
     return state
 }

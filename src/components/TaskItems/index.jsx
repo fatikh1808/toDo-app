@@ -1,12 +1,11 @@
 import React from 'react';
 
-const TaskItem = () => {
-    return(
-        <div>
-            TaskItem
+function TaskItems() {
+    return (
+        <div style={{height: "auto"}}>
+            Task mapper
         </div>
     )
 }
 
-export default TaskItem;
-
+export default TaskItems;

@@ -1,20 +1,17 @@
 import React from 'react';
-import {Col} from 'antd';
-import TopUtils from "./../TopUtils";
-import Title from "./../Title";
-import Sorters from "./../Sorters";
-import TaskItems from "./../TaskItems";
+import {Col, Row} from "antd";
+import LeftBar from "./../LeftBar";
+import Content from "./../Content";
 
-const Content = () => {
+function Distributor() {
     return (
-        <Col span={20}>
-            <TopUtils/>
-            <Title/>
-            <Sorters/>
-            <TaskItems/>
+        <Col span={23} style={{backgroundColor: 'red'}}>
+            <Row>
+                <LeftBar/>
+                <Content/>
+            </Row>
         </Col>
     )
-};
+}
 
-export default Content;
-
+export default Distributor;

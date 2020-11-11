@@ -1,17 +1,22 @@
 import React from 'react';
-import {Col, Row} from "antd";
-import LeftBar from "./../LeftBar";
-import Content from "./../Content";
+import {Col} from 'antd';
+import {Menu} from 'antd'
 
-const Distributor = () => {
+function LeftBar() {
     return (
-        <Col span={23} style={{backgroundColor: 'red'}}>
-            <Row>
-                <LeftBar/>
-                <Content/>
-            </Row>
+        <Col span={4}>
+            <div style={{backgroundColor: 'green', height: 75}}>
+                My tasks
+            </div>
+            <Menu mode="inline" style={{width: 'auto', minHeight: "960px", height: "100%"}}>
+                <Menu.Item key="1">Option 1</Menu.Item>
+                <Menu.Item key="2">Option 2</Menu.Item>
+                <Menu.Item key="3">Option 3</Menu.Item>
+                <Menu.Item key="4">Option 4</Menu.Item>
+            </Menu>
         </Col>
     )
 }
 
-export default Distributor;
+export default LeftBar;
+

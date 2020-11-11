@@ -1,11 +1,11 @@
 import React from 'react';
 
-function UserPage() {
+function UsersPage() {
     return (
         <div>
-        UserPage
+        UserPage mapper
         </div>
     )
 }
 
-export default UserPage;
+export default UsersPage;

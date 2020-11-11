@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Title = () => {
-    return(
+function TopUtils() {
+    return (
         <div style={{height: "5%"}}>
-            Title
+            Top Utils
         </div>
     )
-};
+}
 
-export default Title;
+export default TopUtils;
 
