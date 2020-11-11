@@ -1,12 +1,12 @@
 import React from 'react';
 import AuthForm from "../AuthForm";
 
-function Login() {
+function SignUp() {
 
     return (
-        <AuthForm/>
-    );
+        <AuthForm signUp/>
+    )
 }
 
-export default Login;
+export default SignUp;
 

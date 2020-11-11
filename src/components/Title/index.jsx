@@ -1,12 +1,17 @@
 import React from 'react';
+import { Typography } from 'antd';
 
-function Title() {
+const { Title } = Typography;
+
+function PageTitle() {
     return (
-        <div style={{height: "5%"}}>
-            Title
+        <div style={{height: "10%",}}>
+            <Title>
+                Welcome back, Mr Dimych
+            </Title>
         </div>
     )
 }
 
-export default Title;
+export default PageTitle;
 

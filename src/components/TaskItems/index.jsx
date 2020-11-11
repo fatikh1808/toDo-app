@@ -1,10 +1,12 @@
 import React from 'react';
+import {Col, Row} from "antd";
 
 function TaskItems() {
     return (
-        <div style={{height: "auto"}}>
-            Task mapper
-        </div>
+        <Row style={{height: "auto"}}>
+        <Col span={6}>
+        </Col>
+        </Row>
     )
 }
 
