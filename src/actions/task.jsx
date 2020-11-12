@@ -26,7 +26,6 @@ export const getAllTasks = (id) => {
         }
     });
 
-
     if (loading) {
         return {
             type: types.GET_TASKS_REQUEST

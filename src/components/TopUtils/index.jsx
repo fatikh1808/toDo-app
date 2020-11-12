@@ -7,14 +7,12 @@ import Col from "antd/es/grid/col";
 const {Search} = Input;
 
 
-function TopUtils({avatar}) {
+function TopUtils({avatar, taskPage}) {
 
     const onSearch = value => console.log(value);
-
-console.log(avatar)
     return (
         <Row style={{height: "10%"}}>
-            <Col span={20}>
+            <Col span={20} style={{visibility: taskPage ? 'hidden' : 'initial'}}>
                 <Search placeholder="input search text" onSearch={onSearch} style={{width: 'auto'}}/>
             </Col>
             <Col span={3}>

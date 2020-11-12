@@ -1,7 +1,7 @@
 import React from 'react';
 import {Typography} from 'antd';
 import s from './style.module.css';
-
+import {Link} from "react-router-dom";
 const {Title, Text} = Typography;
 
 function TaskType({loading, error, title}) {
@@ -20,12 +20,12 @@ function TaskType({loading, error, title}) {
         )
     } else {
         return (
-            <div className={s.div}>
-                <Text strong>{title}</Text>
+            <Link className={s.div} to={`/tasks/${title}`}>
+                <Text style={{flex: 1}} strong>{title}</Text>
                 <div className={s.count}>
                     122
                 </div>
-            </div>
+            </Link>
         )
     }
 }

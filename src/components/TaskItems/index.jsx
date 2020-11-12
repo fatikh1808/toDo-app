@@ -2,21 +2,29 @@ import React from 'react';
 import {Col, Row} from "antd";
 import TaskCard from "../TaskCard";
 
-function TaskItems({allTasks}) {
+function TaskItems({allTasks, groupPage, data}) {
 
-    console.log(allTasks);
-
-    let mapper = allTasks.map(item => (
-        <Col key={item.id} span={6} style={{padding: 10}}>
-            <TaskCard item={item}/>
-        </Col>
-    ));
-
-    return (
-        <Row>
-            {mapper}
-        </Row>
-    )
+    if (groupPage){
+        return (
+            <Row>
+                {data.map(item => (
+                    <Col key={item.id} span={6} style={{padding: 10}}>
+                        <TaskCard item={item}/>
+                    </Col>
+                ))}
+            </Row>
+        )
+    } else {
+        return (
+            <Row>
+                {allTasks.map(item => (
+                    <Col key={item.id} span={6} style={{padding: 10}}>
+                        <TaskCard item={item}/>
+                    </Col>
+                ))}
+            </Row>
+        )
+    }
 }
 
 export default TaskItems;

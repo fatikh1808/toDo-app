@@ -4,6 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+.div:hover {
+    text-shadow: -2px 2px 10px rgb(0 0 0);
 }
 
 .count {
@@ -15,4 +21,5 @@
     padding: 1px;
     display: inline-flex;
     align-items: flex-end;
+    flex: 0;
 }

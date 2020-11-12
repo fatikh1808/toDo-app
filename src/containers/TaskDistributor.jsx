@@ -6,7 +6,8 @@ import {getAllTasks} from "../actions";
 const mapStateToProps = state => ({
     id: state.authReducer.user.id,
     userName: state.authReducer.user.name,
-    avatar: state.authReducer.user.avatar_url
+    avatar: state.authReducer.user.avatar_url,
+    allTasks: state.taskReducer.allTasks
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({

@@ -33,7 +33,7 @@ function TaskTypes() {
         return (
             <div className={s.div}>
                 {data.groups.map(item => (
-                    <div key={item.id}>
+                    <div key={item.id} style={{display: 'flex', paddingLeft: 10, paddingRight: 10, backgroundColor: 'yellow'}}>
                         <TaskType title={item.title} id={item.id}/>
                     </div>
                 ))}

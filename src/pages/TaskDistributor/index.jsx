@@ -1,15 +1,15 @@
 import React from 'react';
-import {Row, Col} from 'antd';
-import Sider from "../../components/Sider";
-import Distributor from "../../components/Distributor";
+import Content from "../../components/Content";
 
-const TaskDistributor = ({id, getAllTasks, userName, avatar}) => {
+const TaskDistributor = ({id, getAllTasks, userName, avatar, allTasks}) => {
+
+getAllTasks(id);
+//     useEffect(() => {
+//         getAllTasks(id)
+//     }, []);
 
     return (
-        <Row>
-            <Sider/>
-            <Distributor id={id} getAllTasks={getAllTasks} avatar={avatar} userName={userName}/>
-        </Row>
+        <Content userName={userName} avatar={avatar} id={id} allTasks={allTasks}/>
     )
 };
 

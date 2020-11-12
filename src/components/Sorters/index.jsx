@@ -10,16 +10,16 @@ import s from '../TaskCard/style.module.css';
 
 function Sorters() {
     return (
-        <Row className={s.sortersRow}>
+        <Row>
             <Col span={20}>
             </Col>
             <Col span={1}>
-                <RedoOutlined className={s.sortIcon}/>
+                <RedoOutlined className={s.icon}/>
             </Col>
             <Col span={3}>
-                <ColumnHeightOutlined className={s.sortIcon}/>
-                <ColumnWidthOutlined className={s.sortIcon}/>
-                <OrderedListOutlined className={s.sortIcon}/>
+                <ColumnHeightOutlined className={s.icon}/>
+                <ColumnWidthOutlined className={s.icon}/>
+                <OrderedListOutlined className={s.icon}/>
             </Col>
         </Row>
     )
