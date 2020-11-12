@@ -9,28 +9,31 @@ import {
     PieChartOutlined,
     TeamOutlined, DownCircleOutlined
 } from "@ant-design/icons/dist/index.umd";
+import s from './style.module.css';
+
 
 function Sider() {
     return (
-        <Col span={1} style={{color: '#5e5ef5'}}>
-            <Menu mode="inline" style={{width: 'auto', minHeight: "960px",textAlign: 'center', backgroundColor: 'blue', color: 'white'}}>
-                <div>
-                    <div style={{width: "100%"}}>
-                        <DownCircleOutlined style={{fontSize: '30px', margin: 20}}/>
+        <Col span={1} className={s.siderCol}>
+            <Menu mode="inline" className={s.menu}>
+                <div className={s.firstDiv}>
+                    <div className={s.firstDivInner}>
+                        <DownCircleOutlined className={s.icon}/>
                     </div>
                     <div>
-                        <PlusOutlined style={{fontSize: '30px', margin: 20}}/>
+                        <PlusOutlined className={s.icon}/>
                     </div>
                 </div>
                 <div>
-                    <FileTextOutlined style={{fontSize: '30px', margin: 20}}/>
-                    <TeamOutlined style={{fontSize: '30px', margin: 20}}/>
-                    <PieChartOutlined style={{fontSize: '30px', margin: 20}}/>
-                    <FieldTimeOutlined style={{fontSize: '30px', margin: 20}}/>
-                    <CalendarOutlined style={{fontSize: '30px', margin: 20}}/>
+                    <FileTextOutlined className={s.icon}/>
+                    <TeamOutlined className={s.icon}/>
+                    <PieChartOutlined className={s.icon}/>
+                    <FieldTimeOutlined className={s.icon}/>
+                    <CalendarOutlined className={s.icon}/>
                 </div>
-                <div>
-                    <LogoutOutlined style={{fontSize: '30px', margin: 20}}/>
+                <div className={s.thirdDiv} onClick={() => {
+                }}>
+                    <LogoutOutlined className={s.icon}/>
                 </div>
             </Menu>
         </Col>

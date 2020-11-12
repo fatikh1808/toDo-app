@@ -1,16 +1,20 @@
 import React from 'react';
-import {Row} from "antd";
+import {Col, Row} from "antd";
 import TaskCard from "../TaskCard";
 
-function TaskItems() {
+function TaskItems({allTasks}) {
+
+    console.log(allTasks);
+
+    let mapper = allTasks.map(item => (
+        <Col key={item.id} span={6} style={{padding: 10}}>
+            <TaskCard item={item}/>
+        </Col>
+    ));
+
     return (
-        <Row style={{height: "auto"}}>
-            <TaskCard/>
-            <TaskCard/>
-            <TaskCard/>
-            <TaskCard/>
-            <TaskCard/>
-            <TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/><TaskCard/>
+        <Row>
+            {mapper}
         </Row>
     )
 }

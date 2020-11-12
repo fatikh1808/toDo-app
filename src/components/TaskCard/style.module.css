@@ -1,0 +1,27 @@
+.shape {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.group_title {
+    height: 33%;
+    border-radius: 5px;
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+.description {
+    height: 33%;
+    padding: 15px 0;
+}
+
+.button_block {
+    height: 33%;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 5px;
+}

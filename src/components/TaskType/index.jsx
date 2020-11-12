@@ -1,17 +1,33 @@
 import React from 'react';
 import {Typography} from 'antd';
+import s from './style.module.css';
 
 const {Title, Text} = Typography;
 
-function TaskType() {
-    return (
-        <div style={{backgroundColor: 'yellow', height: 50, padding: 10}}>
-            <Text strong>Ant Design (strong)</Text>
-            <div style={{backgroundColor: 'black', color: 'white',width: 'fit-content', borderRadius: '10px', alignContent: 'center', padding: '1px', display: 'inline-flex'}}>
-                122
+function TaskType({loading, error, title}) {
+
+    if (error) {
+        return (
+            <div className={s.div}>
+                <Text strong>error</Text>
             </div>
-        </div>
-    )
+        )
+    } else if (loading) {
+        return (
+            <div className={s.div}>
+                <Text strong>Loading ...</Text>
+            </div>
+        )
+    } else {
+        return (
+            <div className={s.div}>
+                <Text strong>{title}</Text>
+                <div className={s.count}>
+                    122
+                </div>
+            </div>
+        )
+    }
 }
 
 export default TaskType;

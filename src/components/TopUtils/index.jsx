@@ -7,11 +7,11 @@ import Col from "antd/es/grid/col";
 const {Search} = Input;
 
 
-function TopUtils() {
+function TopUtils({avatar}) {
 
     const onSearch = value => console.log(value);
 
-
+console.log(avatar)
     return (
         <Row style={{height: "10%"}}>
             <Col span={20}>
@@ -28,7 +28,7 @@ function TopUtils() {
                 </Row>
             </Col>
             <Col span={1}>
-                <Avatar size="large" icon={<UserOutlined/>}/>
+                <Avatar size="large" src={avatar}/>
             </Col>
         </Row>
     )

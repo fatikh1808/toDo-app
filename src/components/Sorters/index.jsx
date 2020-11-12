@@ -6,19 +6,20 @@ import {
     OrderedListOutlined,
     RedoOutlined
 } from "@ant-design/icons/es/icons/index";
+import s from '../TaskCard/style.module.css';
 
 function Sorters() {
     return (
-        <Row style={{heigh: '5%'}}>
+        <Row className={s.sortersRow}>
             <Col span={20}>
             </Col>
             <Col span={1}>
-                <RedoOutlined style={{fontSize: 25, margin: 5}}/>
+                <RedoOutlined className={s.sortIcon}/>
             </Col>
             <Col span={3}>
-                <ColumnHeightOutlined style={{fontSize: 25, margin: 5}}/>
-                <ColumnWidthOutlined style={{fontSize: 25, margin: 5}}/>
-                <OrderedListOutlined style={{fontSize: 25, margin: 5}}/>
+                <ColumnHeightOutlined className={s.sortIcon}/>
+                <ColumnWidthOutlined className={s.sortIcon}/>
+                <OrderedListOutlined className={s.sortIcon}/>
             </Col>
         </Row>
     )

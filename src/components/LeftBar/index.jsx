@@ -3,6 +3,8 @@ import {Col} from 'antd';
 import TaskTypes from "../TaskTypes";
 import LeftBarTitle from "../LeftBarTitle";
 
+
+
 function LeftBar() {
     return (
         <Col span={4}>

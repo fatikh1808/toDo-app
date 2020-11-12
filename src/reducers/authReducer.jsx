@@ -7,27 +7,35 @@ const initialState = {
     users: [
         {
             "name": "Dimych",
+            "id": "1",
             "username": "123",
             "password": "123",
-            "isManager": false
+            "isManager": false,
+            "avatar_url": "https://www.blexar.com/avatar.png"
         },
         {
-            "name": "Boss",
+            "name": "Georgiy",
+            "id": "2",
             "username": "321",
             "password": "321",
-            "isManager": true
+            "isManager": false,
+            "avatar_url": "https://www.blexar.com/avatar.png"
         },
         {
-            "name": "Lev",
+            "name": "Leon",
+            "id": "3",
             "username": "444",
             "password": "444",
-            "isManager": true
+            "isManager": true,
+            "avatar_url": "https://www.blexar.com/avatar.png"
         },
         {
             "name": "Insaf",
+            "id": "4",
             "username": "777",
             "password": "777",
-            "isManager": false
+            "isManager": true,
+            "avatar_url": "https://www.blexar.com/avatar.png"
         },
     ]
 };

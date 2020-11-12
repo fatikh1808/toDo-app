@@ -1,0 +1,30 @@
+.icon {
+    font-size: 30px;
+    margin: 15px;
+}
+
+.siderCol {
+    color: #5e5ef5;
+}
+
+.menu {
+    width: auto;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.firstDiv {
+    flex: 1;
+}
+.firstDivInner {
+    width: 100%;
+}
+
+.thirdDiv {
+    flex: 1;
+    flex-direction: column-reverse;
+    display: flex;
+}

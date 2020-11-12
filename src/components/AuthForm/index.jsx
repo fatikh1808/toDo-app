@@ -1,10 +1,12 @@
 import React from 'react';
 import {Form, Input, Button, Checkbox} from 'antd';
 
+
 function AuthForm({signUp, login, signup, users}) {
 
     const onFinish = (values) => {
         login ? login(values.username, values.password, users) : signUp(values.username, values.password, values.name)
+
     };
 
     const onFinishFailed = (errorInfo) => {

@@ -3,11 +3,11 @@ import { Typography } from 'antd';
 
 const { Title } = Typography;
 
-function PageTitle() {
+function PageTitle({userName}) {
     return (
         <div style={{height: "10%",}}>
             <Title>
-                Welcome back, Mr Dimych
+                Welcome back, {userName}
             </Title>
         </div>
     )

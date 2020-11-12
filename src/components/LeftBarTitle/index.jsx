@@ -1,11 +1,12 @@
 import React from 'react';
 import {Typography} from 'antd';
+import s from './style.module.css';
 
 const {Title} = Typography;
 
 function LeftBarTitle() {
     return (
-        <div style={{backgroundColor: 'green', height: 75}}>
+        <div className={s.leftBarTitle}>
             <Title level={2}>My task</Title>
         </div>
     )

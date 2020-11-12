@@ -2,35 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c38504-05b2-4343-8a49-5b0c3b6e405d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RouteMaker/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TaskTypes/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/RouteMaker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LeftBarTitle/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sider/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaskCard/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaskType/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaskTypes/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TaskItems.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/logIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/logIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/signIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/signIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/task.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AuthForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthForm/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Distributor/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Distributor/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftBar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SiderItem/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignUp/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sider/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sider/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sorters/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sorters/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskCard/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TaskItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskItems/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TaskType/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskType/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskTypes/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskTypes/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopUtils/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopUtils/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AuthPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AuthPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/TaskDistributor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TaskDistributor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/TaskPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TaskPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/UserPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/UserPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/UsersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/UsersPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AuthPage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AuthPage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TaskPage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TaskPage/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TaskDistributor/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TaskDistributor/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/authReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/authReducer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/taskReducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/taskReducer.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,15 +42,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
-            <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/App.jsx">
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/components/TaskTypes/index.jsx">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="75">
-                    <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+                  <state relative-caret-position="759">
+                    <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+                    <folding>
+                      <element signature="e#0#26#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="articlePage.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../../taskSSR/src/templates/articlePage.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="165">
+                    <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="logIn.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/actions/logIn.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="15">
+                    <caret line="1" selection-start-line="1" selection-end-line="1" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="task.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/actions/task.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="254">
+                    <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                    <folding>
+                      <element signature="e#0#38#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/components/Sider/index.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="391">
+                    <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+                    <folding>
+                      <element signature="e#0#26#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/components/Sorters/index.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="232">
+                    <caret line="8" column="25" selection-start-line="8" selection-end-line="9" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/components/TaskCard/index.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="125">
+                    <caret line="5" column="18" selection-start-line="5" selection-end-line="6" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/components/TaskType/index.jsx">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="56">
+                    <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-end-line="3" />
                   </state>
                 </provider>
               </entry>
@@ -64,10 +135,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/AuthPage/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Distributor/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -76,10 +147,10 @@
         </entry>
       </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Login/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/LeftBar/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -88,10 +159,10 @@
         </entry>
       </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AuthForm/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,14 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthPage.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/AuthPage.jsx">
+      <file leaf-file-name="style.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Sider/style.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -114,62 +182,53 @@
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SignUp/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logIn.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/logIn.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authReducer.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/authReducer.jsx">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RouteMaker.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/RouteMaker.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/RouteMaker/index.jsx">
+      <file leaf-file-name="style.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TaskCard/style.module.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TaskItems/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TaskType/style.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.module.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/TaskTypes/style.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RouteMaker/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -191,36 +250,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/SiderItem.jsx" />
-        <option value="$PROJECT_DIR$/src/components/SignIn.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Sorters.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskItem.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskItems.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Title.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TopUtils.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskItem/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Distributor/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/SiderItem/index.jsx" />
-        <option value="$PROJECT_DIR$/src/store/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/UsersPage.jsx/index.jsx" />
-        <option value="$PROJECT_DIR$/src/reducers/taskReducer.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/userReducer.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/index.jsx" />
         <option value="$PROJECT_DIR$/src/formGenerationEngine/BaseInput.jsx" />
         <option value="$PROJECT_DIR$/src/components/SignIn/index.jsx" />
         <option value="$PROJECT_DIR$/src/pages/UserPage/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Sider/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Sorters/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Content/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TopUtils/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Title/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskCard/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskType/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskItems/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/LeftBar/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TaskTypes/index.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/TaskDistributor.jsx" />
         <option value="$PROJECT_DIR$/src/containers/TaskPage.jsx" />
         <option value="$PROJECT_DIR$/src/containers/UserPage.jsx" />
         <option value="$PROJECT_DIR$/src/containers/UsersPage.jsx" />
@@ -228,20 +263,44 @@
         <option value="$PROJECT_DIR$/src/pages/TaskPage/index.jsx" />
         <option value="$PROJECT_DIR$/src/actions/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/SignUp/index.jsx" />
-        <option value="$PROJECT_DIR$/src/constants/index.jsx" />
         <option value="$PROJECT_DIR$/src/actions/signIn.jsx" />
         <option value="$PROJECT_DIR$/src/containers/App.jsx" />
         <option value="$PROJECT_DIR$/src/components/Router/index.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/containers/AuthPage.jsx" />
         <option value="$PROJECT_DIR$/src/pages/AuthPage/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/AuthForm/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Login/index.jsx" />
-        <option value="$PROJECT_DIR$/src/actions/logIn.jsx" />
-        <option value="$PROJECT_DIR$/src/reducers/authReducer.jsx" />
         <option value="$PROJECT_DIR$/src/containers/RouteMaker.jsx" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/components/RouteMaker/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/LeftBar/index.jsx" />
+        <option value="$PROJECT_DIR$/src/constants/index.jsx" />
+        <option value="$PROJECT_DIR$/src/actions/logIn.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AuthForm/index.jsx" />
+        <option value="$PROJECT_DIR$/src/reducers/taskReducer.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/TaskItems.jsx" />
+        <option value="$PROJECT_DIR$/src/actions/task.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Title/index.jsx" />
+        <option value="$PROJECT_DIR$/src/reducers/authReducer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Distributor/index.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/TaskDistributor/index.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/TaskDistributor.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TopUtils/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Content/style.scss" />
+        <option value="$PROJECT_DIR$/src/components/Content/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/LeftBarTitle/style.module.css" />
+        <option value="$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Sider/style.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Sider/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Sorters/style.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Sorters/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TaskCard/style.module.css" />
+        <option value="$PROJECT_DIR$/src/components/TaskCard/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TaskItems/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TaskType/style.module.css" />
+        <option value="$PROJECT_DIR$/src/components/TaskType/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TaskTypes/style.module.css" />
+        <option value="$PROJECT_DIR$/src/components/TaskTypes/index.jsx" />
       </list>
     </option>
   </component>
@@ -261,9 +320,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="width" value="959" />
-    <option name="height" value="1079" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="540" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -273,6 +333,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,7 +363,118 @@
               <item name="task-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="AuthForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Distributor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LeftBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LeftBarTitle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="RouteMaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Sider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="SignUp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskItems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskType" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Title" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TopUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
@@ -327,13 +499,26 @@
               <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="task-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskDistributor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,18 +532,20 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/TaskCard" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/actions" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/reducers" />
-      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/TaskTypes" />
+      <recent name="$PROJECT_DIR$/src/components/TaskType" />
+      <recent name="$PROJECT_DIR$/src/components/Sorters" />
+      <recent name="$PROJECT_DIR$/src/components/Sider" />
+      <recent name="$PROJECT_DIR$/src/components/LeftBarTitle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +575,10 @@
       <workItem from="1604998133570" duration="440000" />
       <workItem from="1604998586819" duration="14111000" />
       <workItem from="1605018495821" duration="4207000" />
-      <workItem from="1605078094635" duration="27440000" />
+      <workItem from="1605078094635" duration="29688000" />
+      <workItem from="1605108981155" duration="4000" />
+      <workItem from="1605164063501" duration="9464000" />
+      <workItem from="1605181753013" duration="2516000" />
     </task>
     <task id="LOCAL-00001" summary="You">
       <created>1605078276843</created>
@@ -411,59 +601,44 @@
       <option name="project" value="LOCAL" />
       <updated>1605087242721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set routes">
+      <created>1605106673470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605106673470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46896000" />
+    <option name="totallyTimeSpent" value="61128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="959" height="1079" extended-state="4" />
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3291536" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31485355" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34678298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3293348" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17114271" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31452456" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3291536" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -473,7 +648,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="You" />
-    <option name="LAST_COMMIT_MESSAGE" value="You" />
+    <MESSAGE value="set routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="set routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -481,63 +657,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/TaskItems.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/TaskType.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/Title.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/TopUtils.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/TaskItem/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/task.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/user.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/taskReducer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/formGenerationEngine/BaseInput.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,150 +674,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TopUtils/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Title/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskTypes/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskType/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskItems/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskCard/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sorters/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SiderItem/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Content/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TaskDistributor/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sider/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LeftBar/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Distributor/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SiderItem/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/pages/UserPage/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,34 +710,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/TaskPage.jsx">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/AuthPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/user.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/signIn.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/TaskPage/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="9" />
+          <caret line="1" selection-start-line="1" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/AuthPage/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/TaskPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -767,57 +782,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/signIn.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/RouteMaker.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/taskReducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Title/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/authReducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TopUtils/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/TaskItems.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../taskSSR/src/templates/articlePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/logIn.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/task.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/TaskDistributor.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SignUp/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/TaskDistributor/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Content/style.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/AuthPage.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Content/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/AuthPage/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -826,59 +897,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AuthForm/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        <state relative-caret-position="281">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LeftBarTitle/style.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Login/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RouteMaker/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/logIn.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/LeftBar/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/authReducer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/RouteMaker.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/LeftBarTitle/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RouteMaker/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Sider/style.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SignUp/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sorters/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="25" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Sider/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskCard/style.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskItems/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskCard/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Distributor/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskType/style.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskType/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskTypes/style.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskTypes/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

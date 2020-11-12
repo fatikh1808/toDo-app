@@ -1,0 +1,18 @@
+.div {
+    background-color: yellow;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    align-content: center;
+    padding: 1px;
+    display: inline-flex;
+    align-items: flex-end;
+}

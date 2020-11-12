@@ -3,31 +3,24 @@ import {Col, Row} from "antd";
 import {ChromeOutlined, GithubOutlined} from "@ant-design/icons/es/icons/index";
 import { Avatar, Tooltip } from 'antd';
 import { UserOutlined, AntDesignOutlined } from '@ant-design/icons';
+import s from './style.module.css';
 
 
-function TaskCard() {
+function TaskCard({item}) {
     return (
-        <Col span={6} style={{padding: 10}}>
-            <div style={{backgroundColor: 'white', borderRadius: 5, padding: 15}}>
-                <div style={{
-                    height: "33%",
-                    borderRadius: 5,
-                    backgroundColor: 'yellow',
-                    padding: 5,
-                    width: 'fit-content',
-                    paddingRight: 10,
-                    paddingLeft: 10
-                }}>
-                    Fotikh
+
+            <div className={s.shape}>
+                <div className={s.group_title}>
+                    {item.task_group.title}
                 </div>
-                <div style={{height: "33%", paddingTop: 15, paddingBottom: 15}}>
-                    Fotikhs
+                <div className={s.description}>
+                    {item.description}
                 </div>
-                <Row style={{height: "33%"}}>
+                <Row className={s.button_block}>
                     <Col span={12}>
-                        <GithubOutlined style={{fontSize: 20, margin: 5}}/>
+                        <GithubOutlined className={s.icon}/>
                         2
-                        <ChromeOutlined style={{fontSize: 20, margin: 5}} />
+                        <ChromeOutlined className={s.icon} />
                    2
                     </Col>
                     <Col span={12}>
@@ -42,7 +35,6 @@ function TaskCard() {
                     </Col>
                 </Row>
             </div>
-        </Col>
     )
 }
 

@@ -1,0 +1,7 @@
+.leftBarTitle {
+  background-color: green;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
