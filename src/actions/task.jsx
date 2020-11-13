@@ -35,3 +35,10 @@ export const addNewTask = (task) => {
         task: task
     }
 };
+
+export const getTaskGroups = (data) => {
+    return {
+        type: types.GET_TASK_GROUPS,
+        groups: data.groups
+    }
+};

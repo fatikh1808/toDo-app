@@ -16,9 +16,11 @@
     flex-direction: column;
     height: 100vh;
 }
+
 .firstDiv {
     flex: 1;
 }
+
 .firstDivInner {
     width: 100%;
 }

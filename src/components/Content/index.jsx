@@ -8,6 +8,7 @@ import {useRouteMatch, useParams} from 'react-router-dom';
 import TaskItems from "./../../components/TaskItems";
 import s from './style.module.css';
 import {gql, useQuery} from "@apollo/client/index";
+import {getTaskGroups} from "../../actions";
 
 const GET_GROUP_TASKS = gql`
   query($id: Int!, $title: String!) {

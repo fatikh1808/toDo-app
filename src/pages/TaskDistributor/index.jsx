@@ -1,6 +1,7 @@
 import React from 'react';
 import Content from "../../components/Content";
 import {gql, useQuery} from "@apollo/client/index";
+import {getTaskGroups} from "../../actions";
 
 const GET_TASKS = gql`
   query($id: Int!) {
@@ -19,7 +20,7 @@ const GET_TASKS = gql`
     }
   }
 }`;
-const TaskDistributor = ({id, getAllTasks, userName, avatar, allTasks, getActiveTaskGroup, activeGroupTasks}) => {
+const TaskDistributor = ({id, getAllTasks, userName, avatar, allTasks, getActiveTaskGroup, activeGroupTasks, getTaskGroups}) => {
 
     const {loading, error, data} = useQuery(GET_TASKS, {
             variables: {
@@ -51,7 +52,8 @@ const TaskDistributor = ({id, getAllTasks, userName, avatar, allTasks, getActive
             return (
                 <Content userName={userName} avatar={avatar} id={id} allTasks={allTasks}
                          getActiveTaskGroup={getActiveTaskGroup}
-                         activeGroupTasks={activeGroupTasks}/>
+                         activeGroupTasks={activeGroupTasks}
+                         getTaskGroups={getTaskGroups}/>
             )
         } else {
             return (

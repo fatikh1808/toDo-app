@@ -10,9 +10,9 @@ import {
     TeamOutlined, DownCircleOutlined
 } from "@ant-design/icons/dist/index.umd";
 import s from './style.module.css';
+import {Link} from "react-router-dom";
 
-
-function Sider() {
+function Sider({logOut, showModal}) {
     return (
         <Col span={1} className={s.siderCol}>
             <Menu mode="inline" className={s.menu}>
@@ -20,8 +20,10 @@ function Sider() {
                     <div className={s.firstDivInner}>
                         <DownCircleOutlined className={s.icon}/>
                     </div>
-                    <div>
-                        <PlusOutlined className={s.icon}/>
+                    <div onClick={showModal}>
+                        {/*<Link to={'/newTask'}>*/}
+                            <PlusOutlined className={s.icon}/>
+                        {/*</Link>*/}
                     </div>
                 </div>
                 <div>
@@ -31,8 +33,7 @@ function Sider() {
                     <FieldTimeOutlined className={s.icon}/>
                     <CalendarOutlined className={s.icon}/>
                 </div>
-                <div className={s.thirdDiv} onClick={() => {
-                }}>
+                <div className={s.thirdDiv} onClick={logOut}>
                     <LogoutOutlined className={s.icon}/>
                 </div>
             </Menu>

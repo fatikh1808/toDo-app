@@ -19,7 +19,6 @@ const validateMessages = {
 
 function UserPage() {
     const onFinish = values => {
-        console.log(values);
     };
 
     return (

@@ -2,12 +2,13 @@ import * as types from '../constants';
 
 const initialState = {
     allTasks: [],
+    allGroups: [],
     activeGroupTasks: {},
     activeTask: {}
 };
 
 export default function taskReducer(state = initialState, action) {
-    switch (action.type){
+    switch (action.type) {
         case types.GET_TASKS_SUCCESS:
             return {
                 ...state,
@@ -35,8 +36,14 @@ export default function taskReducer(state = initialState, action) {
             return {
                 ...state,
                 allTasks: [
-                    ...state.allTasks
+                    ...state.allTasks,
+                    action.task
                 ]
+            };
+        case types.GET_TASK_GROUPS:
+            return {
+                ...state,
+                allGroups: action.groups
             }
     }
     return state

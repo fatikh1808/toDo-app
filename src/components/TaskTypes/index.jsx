@@ -12,9 +12,17 @@ const GET_TASK_GROUPS = gql`
 }`;
 
 
-function TaskTypes() {
+function TaskTypes({getTaskGroups, allGroups}) {
+
+    console.log("allGroups", allGroups)
 
     const {loading, error, data} = useQuery(GET_TASK_GROUPS);
+
+    React.useEffect(() => {
+        if (data) {
+            getTaskGroups(data)
+        }
+    }, [data]);
 
     if (loading) {
         return (
@@ -30,15 +38,25 @@ function TaskTypes() {
 
         )
     } else {
-        return (
-            <div className={s.div}>
-                {data.groups.map(item => (
-                    <div key={item.id} style={{display: 'flex', paddingLeft: 10, paddingRight: 10, backgroundColor: 'yellow'}}>
-                        <TaskType title={item.title} id={item.id}/>
-                    </div>
-                ))}
-            </div>
-        )
+        if (typeof allGroups !== 'undefined' && allGroups.length > 0) {
+            return (
+                <div className={s.div}>
+                    {allGroups.map(item => (
+                        <div key={item.id}
+                             style={{display: 'flex', paddingLeft: 10, paddingRight: 10, backgroundColor: 'yellow'}}>
+                            <TaskType title={item.title} id={item.id}/>
+                        </div>
+                    ))}
+                </div>
+            )
+        } else {
+            return (
+                <div>
+                    loading ....
+                </div>
+            )
+        }
+
     }
 
 }

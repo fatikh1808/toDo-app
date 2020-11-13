@@ -5,6 +5,7 @@
   "dependencies": {
     "@ant-design/icons": "latest",
     "@apollo/client": "^3.2.5",
+    "@rjsf/antd": "^2.4.0",
     "@rjsf/core": "^2.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

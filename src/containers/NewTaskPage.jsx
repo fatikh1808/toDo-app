@@ -1,19 +1,19 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import RouteMaker from "../components/RouteMaker";
-import {getTaskGroups, logOut} from "../actions";
+import NewTaskPage from "../pages/NewTaskPage";
+import {addNewTask} from "../actions";
 
 const mapStateToProps = state => ({
-    isAuthenticated: state.authReducer.isAuthenticated,
+    users: state.authReducer.users,
     allGroups: state.taskReducer.allGroups
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-    getTaskGroups,
-    logOut
+    addNewTask
 }, dispatch);
+
 
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(RouteMaker);
+)(NewTaskPage);
