@@ -25,11 +25,10 @@ const GET_GROUP_TASKS = gql`
 }`;
 
 
-function Content({userName, avatar, id, allTasks}) {
+function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGroupTasks}) {
 
     let {path} = useRouteMatch();
     let {groupTitle} = useParams();
-
 
     const {loading, error, data} = useQuery(GET_GROUP_TASKS, {
         variables: {
@@ -37,6 +36,12 @@ function Content({userName, avatar, id, allTasks}) {
             title: groupTitle
         }
     });
+
+    React.useEffect(() => {
+        if (data && path !== '/tasks') {
+            getActiveTaskGroup(data.groups[0])
+        }
+    }, [data, path]);
 
     if (path !== '/tasks') {
         if (loading) {
@@ -53,14 +58,22 @@ function Content({userName, avatar, id, allTasks}) {
             )
         }
         else {
-            return (
-                <Col span={20} className={s.ContentCol}>
-                    <TopUtils avatar={avatar}/>
-                    <PageTitle userName={data.groups[0].title} groupPage/>
-                    <Sorters/>
-                    <TaskItems groupPage data={data.groups[0].task_gr}/>
-                </Col>
-            )
+            if (Object.keys(activeGroupTasks).length === 0) {
+                return (
+                    <div>
+                        loading...
+                    </div>
+                )
+            } else {
+                return (
+                    <Col span={20} className={s.ContentCol}>
+                        <TopUtils avatar={avatar}/>
+                        <PageTitle userName={activeGroupTasks.title} groupPage/>
+                        <Sorters/>
+                        <TaskItems groupPage data={activeGroupTasks.task_gr}/>
+                    </Col>
+                )
+            }
         }
     } else {
         return (

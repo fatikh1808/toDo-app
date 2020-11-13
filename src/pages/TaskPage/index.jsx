@@ -1,13 +1,25 @@
 import React from 'react';
 import {useParams} from 'react-router-dom';
-import {gql, useQuery} from "@apollo/client/index";
+import {gql, useQuery, useMutation} from "@apollo/client";
 import TopUtils from "../../components/TopUtils";
 import PageTitle from "../../components/Title";
 import {Col} from "antd";
 import {Typography} from 'antd';
-import { Switch } from 'antd';
+import {Switch} from 'antd';
 
 const {Title, Text} = Typography;
+
+
+const CHANGE_ISDONE = gql`
+ mutation ($id: Int!, $isDone: Boolean!) {
+  update_tasks(where: {id: {_eq: $id}}, _set: {isDone: $isDone}) {
+    returning {
+      isDone
+      title
+    }
+  }
+}
+`;
 
 const GET_MY_TODOS = gql`
   query ($id: Int!){
@@ -25,7 +37,7 @@ const GET_MY_TODOS = gql`
   }`;
 
 
-function TaskPage({avatar}) {
+function TaskPage({avatar, taskDone, getActiveTask, activeTask}) {
 
     let {taskId} = useParams();
 
@@ -34,9 +46,25 @@ function TaskPage({avatar}) {
             id: taskId
         }
     });
+
+    const [addTodo, {data: changedData}] = useMutation(CHANGE_ISDONE);
+
     function onChange(checked) {
-        console.log(`switch to ${checked}`);
+        addTodo({variables: {id: parseInt(taskId), isDone: checked}},
+        );
     }
+
+    React.useEffect(() => {
+        if (changedData) {
+            taskDone(changedData.update_tasks.returning[0].isDone);
+        }
+    }, [changedData]);
+
+    React.useEffect(() => {
+        if (data) {
+            getActiveTask(data.tasks[0])
+        }
+    }, [data]);
 
     if (loading) {
         return (
@@ -53,20 +81,18 @@ function TaskPage({avatar}) {
     } else {
         return (
             <Col span={20} style={{padding: 25}}>
-                {console.log(data.tasks[0].isDone)}
-
                 <TopUtils avatar={avatar} taskPage/>
-                <PageTitle title={data.tasks[0].title} taskPage/>
+                <PageTitle title={activeTask.title} taskPage/>
                 <Title level={3}>
-                    Description: {data.tasks[0].description}
+                    Description: {activeTask.description}
                 </Title>
                 <Text code>
-                    Created at: {data.tasks[0].created_at}
+                    Created at: {activeTask.created_at}
                 </Text>
                 <Text code>
-                    Updated at: {data.tasks[0].updated_at}
+                    Updated at: {activeTask.updated_at}
                 </Text>
-                <Switch checked={data.tasks[0].isDone} onChange={onChange} />
+                <Switch checked={activeTask.isDone} onChange={onChange}/>
             </Col>
         )
     }

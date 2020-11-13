@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import UsersPage from "../pages/UsersPage";
+import UsersPage from "../pages/NewTaskPage";
 
 const mapStateToProps = state => ({});
 

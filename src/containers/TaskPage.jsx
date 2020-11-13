@@ -1,12 +1,17 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import TaskPage from "../pages/TaskPage";
+import {getActiveTask, taskDone} from "../actions";
 
 const mapStateToProps = state => ({
-    avatar: state.authReducer.user.avatar_url
+    avatar: state.authReducer.user.avatar_url,
+    activeTask: state.taskReducer.activeTask
 });
 
-const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);
+const mapDispatchToProps = dispatch => bindActionCreators({
+    taskDone,
+    getActiveTask
+}, dispatch);
 
 
 export default connect(
