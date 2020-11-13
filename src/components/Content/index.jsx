@@ -53,7 +53,7 @@ function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGrou
         } else if (error) {
             return (
                 <div>
-                    {error}
+                    error
                 </div>
             )
         }
