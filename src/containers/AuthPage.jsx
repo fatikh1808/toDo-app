@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import AuthPage from '../pages/AuthPage';
-import {login, signUp} from "../actions";
+import {login, signUp} from "../store";
 
 const mapStateToProps = state => ({
     users: state.authReducer.users

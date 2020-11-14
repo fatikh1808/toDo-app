@@ -3,7 +3,7 @@ import {useParams} from 'react-router-dom';
 import {gql, useQuery, useMutation} from "@apollo/client";
 import TopUtils from "../../components/TopUtils";
 import PageTitle from "../../components/Title";
-import {Col} from "antd";
+import {Col, Row} from "antd";
 import {Typography} from 'antd';
 import {Switch} from 'antd';
 
@@ -80,7 +80,7 @@ function TaskPage({avatar, taskDone, getActiveTask, activeTask}) {
         )
     } else {
         return (
-            <Col span={20} style={{padding: 25}}>
+            <Col span={24} style={{padding: 25}}>
                 <TopUtils avatar={avatar} taskPage/>
                 <PageTitle title={activeTask.title} taskPage/>
                 <Title level={3}>
@@ -92,7 +92,14 @@ function TaskPage({avatar, taskDone, getActiveTask, activeTask}) {
                 <Text code>
                     Updated at: {activeTask.updated_at}
                 </Text>
-                <Switch checked={activeTask.isDone} onChange={onChange}/>
+                <Row>
+                    <Col style={{margin: 5}}>
+                        <Text type={activeTask.isDone ? "success" : "warning"} strong>Done</Text>
+                    </Col>
+                    <Col style={{margin: 5}}>
+                        <Switch checked={activeTask.isDone} onChange={onChange}/>
+                    </Col>
+                </Row>
             </Col>
         )
     }

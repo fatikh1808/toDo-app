@@ -3,7 +3,7 @@ import {Theme} from '@rjsf/antd';
 import {withTheme} from '@rjsf/core';
 import s from './syle.css';
 import {gql, useMutation} from "@apollo/client/index";
-import { Modal } from 'antd';
+import {Modal} from 'antd';
 
 const ADD_NEW_TASK = gql`
  mutation ($description: String!, $group: Int!, $title: String!, $user: Int!, $id: Int!) {
@@ -34,7 +34,6 @@ function NewTaskPage({allGroups, addNewTask, handleCancel, handleOk, visible}) {
     // console.log(clients);
 
     const schema = {
-        "title": "New Task",
         "description": "In this page, you can create new task",
         "type": "object",
         "required": [
@@ -95,7 +94,8 @@ function NewTaskPage({allGroups, addNewTask, handleCancel, handleOk, visible}) {
                 description: formData.description,
                 id: Math.floor(Math.random() * Math.floor(100000))
             }
-        })
+        });
+        handleOk(!visible);
     }
 
     console.log(settedData);
@@ -108,16 +108,19 @@ function NewTaskPage({allGroups, addNewTask, handleCancel, handleOk, visible}) {
 
     return (
         <Modal
-            title="Basic Modal"
+            title="New Task"
             visible={visible}
+            closable={false}
+            mask={false}
             onOk={handleOk}
             onCancel={handleCancel}
+            footer={null}
         >
-        <ThemedForm schema={schema}
-                    onSubmit={onSubmit}
-                    className={'shape'}
-                    onError={(error) => console.log("error", error)}
-        />
+            <ThemedForm schema={schema}
+                        onSubmit={onSubmit}
+                        className={'shape'}
+                        onError={(error) => console.log("error", error)}
+            />
         </Modal>
     )
 }

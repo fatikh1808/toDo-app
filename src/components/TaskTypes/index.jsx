@@ -43,7 +43,7 @@ function TaskTypes({getTaskGroups, allGroups}) {
                 <div className={s.div}>
                     {allGroups.map(item => (
                         <div key={item.id}
-                             style={{display: 'flex', paddingLeft: 10, paddingRight: 10, backgroundColor: 'yellow'}}>
+                             style={{display: 'flex', paddingLeft: 10, paddingRight: 10}}>
                             <TaskType title={item.title} id={item.id}/>
                         </div>
                     ))}

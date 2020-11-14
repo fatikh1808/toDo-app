@@ -8,7 +8,6 @@ import {useRouteMatch, useParams} from 'react-router-dom';
 import TaskItems from "./../../components/TaskItems";
 import s from './style.module.css';
 import {gql, useQuery} from "@apollo/client/index";
-import {getTaskGroups} from "../../actions";
 
 const GET_GROUP_TASKS = gql`
   query($id: Int!, $title: String!) {
@@ -44,6 +43,17 @@ function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGrou
         }
     }, [data, path]);
 
+    const Returner = (username, data, groupPage) => {
+        return (
+            <Col span={24} className={s.ContentCol}>
+                <TopUtils avatar={avatar}/>
+                <PageTitle userName={username} groupPage={groupPage}/>
+                <Sorters/>
+                <TaskItems groupPage data={data}/>
+            </Col>
+        )
+    };
+
     if (path !== '/tasks') {
         if (loading) {
             return (
@@ -67,23 +77,13 @@ function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGrou
                 )
             } else {
                 return (
-                    <Col span={20} className={s.ContentCol}>
-                        <TopUtils avatar={avatar}/>
-                        <PageTitle userName={activeGroupTasks.title} groupPage/>
-                        <Sorters/>
-                        <TaskItems groupPage data={activeGroupTasks.task_gr}/>
-                    </Col>
+                    Returner(activeGroupTasks.title, activeGroupTasks.task_gr, true)
                 )
             }
         }
     } else {
         return (
-            <Col span={20} className={s.ContentCol}>
-                <TopUtils avatar={avatar}/>
-                <PageTitle userName={userName}/>
-                <Sorters/>
-                <TaskItems allTasks={allTasks}/>
-            </Col>
+            Returner(userName, allTasks, false)
         )
     }
 

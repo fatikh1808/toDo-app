@@ -4,25 +4,25 @@ import TaskCard from "../TaskCard";
 
 function TaskItems({allTasks, groupPage, data}) {
 
-    if (groupPage){
+    const Mapper = (data) => {
         return (
             <Row>
                 {data.map(item => (
-                    <Col key={item.id} span={6} style={{padding: 10}}>
+                    <Col xs={24} sm={12} md={8} lg={6} xl={4} key={item.id} style={{padding: 10}}>
                         <TaskCard item={item}/>
                     </Col>
                 ))}
             </Row>
         )
+    };
+
+    if (groupPage) {
+        return (
+            Mapper(data)
+        )
     } else {
         return (
-            <Row>
-                {allTasks.map(item => (
-                    <Col key={item.id} span={6} style={{padding: 10}}>
-                        <TaskCard item={item}/>
-                    </Col>
-                ))}
-            </Row>
+            Mapper(allTasks)
         )
     }
 }

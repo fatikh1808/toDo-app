@@ -2,16 +2,23 @@ import React from 'react';
 import {Col} from 'antd';
 import TaskTypes from "../TaskTypes";
 import LeftBarTitle from "../LeftBarTitle";
-import {getTaskGroups} from "../../actions";
+import {Layout} from "antd";
 
-
+const {Sider} = Layout;
 
 function LeftBar({getTaskGroups, allGroups}) {
     return (
-        <Col span={4}>
+        <Sider style={{
+            overflow: 'hidden',
+            height: '100vh',
+            marginLeft: 80,
+            position: 'fixed',
+            left: 0,
+            backgroundColor: "#2a5c9a"
+        }}>
             <LeftBarTitle/>
             <TaskTypes getTaskGroups={getTaskGroups} allGroups={allGroups}/>
-        </Col>
+        </Sider>
     )
 }
 
