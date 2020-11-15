@@ -37,7 +37,7 @@ const GET_MY_TODOS = gql`
   }`;
 
 
-function TaskPage({avatar, taskDone, getActiveTask, activeTask}) {
+function TaskPage({avatar, taskDone, getActiveTask, activeTask, visibleChanger, isVisible, logOut}) {
 
     let {taskId} = useParams();
 
@@ -81,7 +81,12 @@ function TaskPage({avatar, taskDone, getActiveTask, activeTask}) {
     } else {
         return (
             <Col span={24} style={{padding: 25}}>
-                <TopUtils avatar={avatar} taskPage/>
+                <TopUtils
+                    avatar={avatar}
+                    visibleChanger={visibleChanger}
+                    logOut={logOut}
+                    isVisible={isVisible}
+                    taskPage/>
                 <PageTitle title={activeTask.title} taskPage/>
                 <Title level={3}>
                     Description: {activeTask.description}

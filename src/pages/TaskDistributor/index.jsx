@@ -1,7 +1,6 @@
 import React from 'react';
 import Content from "../../components/Content";
 import {gql, useQuery} from "@apollo/client/index";
-import {visibleChanger} from "../../store";
 
 const GET_TASKS = gql`
   query($id: Int!) {
