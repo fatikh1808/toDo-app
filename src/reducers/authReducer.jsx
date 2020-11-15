@@ -7,6 +7,9 @@ const initialState = {
     users: [
         {
             "name": "Dimych",
+            "lastName": "Leon",
+            "Country": "Russia",
+            "DateBirth": "18.08.1997",
             "id": "1",
             "username": "123",
             "password": "123",
@@ -15,7 +18,10 @@ const initialState = {
         },
         {
             "name": "Georgiy",
+            "lastName": "Leon",
             "id": "2",
+            "Country": "Russia",
+            "DateBirth": "18.08.1997",
             "username": "321",
             "password": "321",
             "isManager": false,
@@ -23,6 +29,9 @@ const initialState = {
         },
         {
             "name": "Leon",
+            "lastName": "Leon",
+            "Country": "Russia",
+            "DateBirth": "18.08.1997",
             "id": "3",
             "username": "444",
             "password": "444",
@@ -31,6 +40,9 @@ const initialState = {
         },
         {
             "name": "Insaf",
+            "lastName": "Leon",
+            "Country": "Russia",
+            "DateBirth": "18.08.1997",
             "id": "4",
             "username": "777",
             "password": "777",

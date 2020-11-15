@@ -80,8 +80,6 @@ function NewTaskPage({allGroups, addNewTask, handleCancel, handleOk, visible}) {
         }
     };
 
-    const [data, setData] = React.useState({});
-
     const [addTodo, {data: settedData}] = useMutation(ADD_NEW_TASK);
 
 

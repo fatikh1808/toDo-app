@@ -1,33 +1,31 @@
 import React from 'react';
 import {Typography} from 'antd';
+import s from './style.module.css';
 
 const {Title} = Typography;
 
 function PageTitle({userName, groupPage, taskPage, title}) {
 
-    if (groupPage) {
+    const Returner = (title) => {
         return (
-            <div style={{height: "10%",}}>
+            <div className={s.text}>
                 <Title>
-                    {userName}
+                    {title}
                 </Title>
             </div>
+        )
+    };
+
+    if (groupPage) {
+        return (Returner(userName)
         )
     } else if (taskPage) {
         return (
-            <div style={{height: "10%",}}>
-                <Title>
-                    Title: {title}
-                </Title>
-            </div>
+            Returner(`Title: ${title}`)
         )
     } else {
         return (
-            <div style={{height: "10%",}}>
-                <Title>
-                    Welcome back, {userName}
-                </Title>
-            </div>
+            Returner(`Welcome back, ${userName}`)
         )
     }
 }

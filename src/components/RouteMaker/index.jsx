@@ -12,6 +12,8 @@ import SideBar from "../Sider";
 import LeftBar from "../LeftBar";
 import NewTaskPage from "../../containers/NewTaskPage";
 import {Layout} from 'antd';
+import s from './style.module.css';
+
 
 function RouteMaker({isAuthenticated, getTaskGroups, allGroups, logOut}) {
 
@@ -35,10 +37,11 @@ function RouteMaker({isAuthenticated, getTaskGroups, allGroups, logOut}) {
                 isAuthenticated ?
                     <Layout>
                         <SideBar logOut={logOut} showModal={showModal}/>
-                        <Layout style={{marginLeft: 80}}>
+                        <Layout className={s.firstLayer}>
                             <LeftBar getTaskGroups={getTaskGroups} allGroups={allGroups}/>
                             <NewTaskPage handleCancel={handleCancel} handleOk={handleOk} visible={visible}/>
-                            <Layout style={{marginLeft: 200, height: '100vh', backgroundColor: "#e2ecf7"}}>
+                            <UserPage/>
+                            <Layout className={s.secondLayer}>
                                 <Switch>
                                     <Route path={'/userSettings'} component={UserPage}/>
                                     <Route path={'/tasks/:groupTitle/:taskId'} component={TaskPage}/>

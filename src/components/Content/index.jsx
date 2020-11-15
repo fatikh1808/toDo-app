@@ -25,7 +25,7 @@ const GET_GROUP_TASKS = gql`
 }`;
 
 
-function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGroupTasks}) {
+function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGroupTasks, visibleChanger, isVisible, logOut}) {
 
     let {path} = useRouteMatch();
     let {groupTitle} = useParams();
@@ -46,7 +46,7 @@ function Content({userName, avatar, id, allTasks, getActiveTaskGroup, activeGrou
     const Returner = (username, data, groupPage) => {
         return (
             <Col span={24} className={s.ContentCol}>
-                <TopUtils avatar={avatar}/>
+                <TopUtils avatar={avatar} visibleChanger={visibleChanger} isVisible={isVisible} logOut={logOut}/>
                 <PageTitle userName={username} groupPage={groupPage}/>
                 <Sorters/>
                 <TaskItems groupPage data={data}/>

@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import RouteMaker from "../components/RouteMaker";
-import {getTaskGroups, logOut} from "../store";
+import {getTaskGroups, logOut, visibleChanger} from "../store";
 
 const mapStateToProps = state => ({
     isAuthenticated: state.authReducer.isAuthenticated,

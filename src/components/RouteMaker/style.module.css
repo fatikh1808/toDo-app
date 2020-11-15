@@ -1,0 +1,9 @@
+.firstLayer {
+    margin-left: 80px;
+}
+
+.secondLayer {
+    margin-left: 200px;
+    height: 100vh;
+    background-color: #e2ecf7;
+}

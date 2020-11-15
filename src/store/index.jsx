@@ -7,7 +7,7 @@ import {composeWithDevTools} from 'redux-devtools-extension';
 export * from './../actions/logIn';
 export * from './../actions/signIn';
 export * from './../actions/task';
-export * from './../actions/user';
+export * from '../actions/userPage';
 
 
 export default function configureStore() {

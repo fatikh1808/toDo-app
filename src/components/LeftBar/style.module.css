@@ -1,0 +1,8 @@
+.sider {
+    overflow: hidden;
+    height: 100vh;
+    margin-left: 80px;
+    position: fixed;
+    left: 0;
+    background-color: #2a5c9a;
+}

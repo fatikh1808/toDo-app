@@ -14,7 +14,7 @@ const GET_TASK_GROUPS = gql`
 
 function TaskTypes({getTaskGroups, allGroups}) {
 
-    console.log("allGroups", allGroups)
+    console.log("allGroups", allGroups);
 
     const {loading, error, data} = useQuery(GET_TASK_GROUPS);
 
@@ -43,7 +43,7 @@ function TaskTypes({getTaskGroups, allGroups}) {
                 <div className={s.div}>
                     {allGroups.map(item => (
                         <div key={item.id}
-                             style={{display: 'flex', paddingLeft: 10, paddingRight: 10}}>
+                             className={s.itemDiv}>
                             <TaskType title={item.title} id={item.id}/>
                         </div>
                     ))}
