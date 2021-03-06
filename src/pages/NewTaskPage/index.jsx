@@ -30,8 +30,6 @@ const ADD_NEW_TASK = gql`
 const ThemedForm = withTheme(Theme);
 
 function NewTaskPage({allGroups, addNewTask, handleCancel, handleOk, visible}) {
-    // let clients = JSON.stringify(allGroups.map(item => item.title));
-    // console.log(clients);
 
     const schema = {
         "description": "In this page, you can create new task",
@@ -95,8 +93,6 @@ function NewTaskPage({allGroups, addNewTask, handleCancel, handleOk, visible}) {
         });
         handleOk(!visible);
     }
-
-    console.log(settedData);
 
     React.useEffect(() => {
         if (settedData) {

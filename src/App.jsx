@@ -1,22 +1,21 @@
 import React from "react";
 import 'antd/dist/antd.css'
-
-require("dotenv").config();
 import {ApolloClient, ApolloProvider, InMemoryCache, HttpLink} from '@apollo/client';
 import {Provider} from "react-redux";
 import configureStore from './store';
 import {
     BrowserRouter as Router
 } from "react-router-dom";
+
 import RouteMaker from "./containers/RouteMaker";
 
 
 const createApolloClient = () => {
     return new ApolloClient({
         link: new HttpLink({
-            uri: "https://gql-2.test.serafim.help/v1/graphql",
+            uri: "https://to-do.hasura.app/v1/graphql",
             headers: {
-                "x-hasura-admin-secret": "123-123-123-123-123"
+                "x-hasura-admin-secret": "password-for-todo-app"
             }
         }),
         cache: new InMemoryCache(),

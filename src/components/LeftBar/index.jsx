@@ -7,7 +7,9 @@ import s from './style.module.css';
 
 const {Sider} = Layout;
 
-function LeftBar({getTaskGroups, allGroups}) {
+function LeftBar({ getTaskGroups, allGroups }) {
+    
+    console.log("leftbar", allGroups)
     return (
         <Sider className={s.sider}>
             <LeftBarTitle/>

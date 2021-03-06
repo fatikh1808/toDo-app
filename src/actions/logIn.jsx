@@ -1,4 +1,5 @@
 import * as types from '../constants/index';
+import PropTypes from 'prop-types';
 
 export const login = (username, password, users) => {
     if (users.some(person => person.username === username && person.password === password)) {
@@ -20,3 +21,14 @@ export const logOut = () => {
     }
 };
 
+login.propTypes = {
+    username: PropTypes.string,
+    password: PropTypes.string,
+    users: PropTypes.array
+}
+
+login.defaulProps = {
+    username: "",
+    password: "",
+    users: []
+}

@@ -18,7 +18,7 @@ import s from './style.module.css';
 function RouteMaker({isAuthenticated, getTaskGroups, allGroups, logOut}) {
 
     const [visible, setVisible] = React.useState(false);
-
+    console.log("route maker", allGroups)
     const showModal = () => {
         setVisible(!visible)
     };
@@ -30,6 +30,8 @@ function RouteMaker({isAuthenticated, getTaskGroups, allGroups, logOut}) {
     const handleCancel = e => {
         setVisible(!visible)
     };
+
+    isAuthenticated = true;
 
     return (
         <React.Fragment>

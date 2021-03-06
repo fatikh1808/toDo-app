@@ -5,8 +5,8 @@ import s from './style.module.css';
 
 const GET_TASK_GROUPS = gql`
   query MyQuery {
-   groups {
-    title
+   group {
+    group_name
     id
   }
 }`;
@@ -14,12 +14,11 @@ const GET_TASK_GROUPS = gql`
 
 function TaskTypes({getTaskGroups, allGroups}) {
 
-    console.log("allGroups", allGroups);
-
     const {loading, error, data} = useQuery(GET_TASK_GROUPS);
-
+    console.log("allGroups", allGroups)
     React.useEffect(() => {
         if (data) {
+            console.log(data)
             getTaskGroups(data)
         }
     }, [data]);
@@ -44,7 +43,7 @@ function TaskTypes({getTaskGroups, allGroups}) {
                     {allGroups.map(item => (
                         <div key={item.id}
                              className={s.itemDiv}>
-                            <TaskType title={item.title} id={item.id}/>
+                            <TaskType title={item.group_name} id={item.id}/>
                         </div>
                     ))}
                 </div>
